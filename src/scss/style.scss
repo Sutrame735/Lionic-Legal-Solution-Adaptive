@@ -26,7 +26,9 @@ nav, footer, header, aside {
 html, body {
   height: 100%;
   width: 100%;
+  font-size: 100%;
   line-height: 1;
+  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -111,14 +113,6 @@ body {
   margin: 0 auto;
 }
 
-@mixin color-black {
-  color: #1c1c1c;
-}
-
-@mixin color-grey {
-  color: #787878;
-}
-
 /*-----------------------------------------------*/
 
 /*HEADER*/
@@ -156,7 +150,7 @@ body {
     font-size: 15px;
     line-height: 28px;
     font-weight: 600;
-    @include color-black;
+    color: #1c1c1c;
 
     &:hover {
       padding-bottom: 39px;
@@ -230,7 +224,7 @@ body {
   line-height: 52px;
   font-weight: 300;
   letter-spacing: 0.01em;
-  @include color-black;
+  color: #1c1c1c;
   margin-bottom: 32px;
 }
 
@@ -238,7 +232,7 @@ body {
   line-height: 25px;
   font-weight: 400;
   letter-spacing: 0.02em;
-  @include color-grey;
+  color: #787878;
   margin-bottom: 36px;
 }
 
@@ -267,7 +261,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.005em;
-  @include color-grey;
+  color: #787878;
   align-self: center;
   background: url("../img/trial/trial-shield.svg") no-repeat left center;
   padding-left: 20px;
@@ -289,7 +283,7 @@ body {
     line-height: 21px;
     font-weight: 300;
     letter-spacing: 0.005em;
-    @include color-black;
+    color: #1c1c1c;
     margin-bottom: 36px;
   }
 
@@ -297,7 +291,7 @@ body {
     line-height: 21px;
     font-weight: 400;
     letter-spacing: 0.03em;
-    @include color-grey;
+    color: #787878;
     margin-bottom: 55px;
   }
 }
@@ -350,7 +344,7 @@ h5 {
   font-size: 20px;
   line-height: 21px;
   font-weight: 600;
-  @include color-black;
+  color: #1c1c1c;
   margin-bottom: 20px;
 }
 
@@ -358,7 +352,7 @@ p {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  @include color-grey;
+  color: #787878;
 }
 
 
@@ -420,7 +414,7 @@ p {
   font-size: 14px;
   line-height: 25px;
   font-weight: 400;
-  @include color-grey;
+  color: #787878;
 }
 
 .clients-item__user {
@@ -446,14 +440,14 @@ p {
     font-size: 17px;
     line-height: 25px;
     font-weight: 600;
-    @include color-black;
+    color: #1c1c1c;
   }
 
   .clients-item-user-desc__job {
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
-    @include color-grey;
+    color: #787878;
     opacity: 0.6;
   }
 }
@@ -498,7 +492,7 @@ p {
     font-size: 17px;
     line-height: 25px;
     font-weight: 600;
-    @include color-black;
+    color: #1c1c1c;
     margin-bottom: 44px;
   }
 
@@ -506,7 +500,7 @@ p {
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
-    @include color-grey;
+    color: #787878;
   }
 }
 
@@ -533,7 +527,7 @@ p {
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
-    @include color-grey;
+    color: #787878;
 
     &:hover {
       color: #3172b9;
@@ -559,7 +553,7 @@ p {
     font-size: 14px;
     line-height: 25px;
     font-weight: 400;
-    @include color-grey;
+    color: #787878;
 
     &:hover {
       color: #3172b9;
@@ -593,7 +587,7 @@ p {
     line-height: 21px;
     font-weight: 300;
     letter-spacing: 0.005em;
-    @include color-black;
+    color: #1c1c1c;
     margin-bottom: 28px;
   }
 
@@ -601,7 +595,7 @@ p {
     line-height: 21px;
     font-weight: 400;
     letter-spacing: 0.03em;
-    @include color-grey;
+    color: #787878;
     margin-bottom: 60px;
   }
 }
@@ -663,7 +657,7 @@ p {
     font-size: 12px;
     line-height: 17px;
     font-weight: 400;
-    @include color-grey;
+    color: #787878;
   }
 }
 
@@ -684,7 +678,7 @@ p {
     line-height: 21px;
     font-weight: 400;
     letter-spacing: 0.01em;
-    @include color-grey;
+    color: #787878;
   }
 }
 
