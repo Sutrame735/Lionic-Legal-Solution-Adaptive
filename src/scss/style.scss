@@ -250,7 +250,7 @@ body {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.005em;
-  max-width: 250px;
+  min-width: 250px;
   height: 58px;
   margin-bottom: 7px;
 }
@@ -298,6 +298,7 @@ body {
 
 .do-list {
   display: flex;
+  flex-wrap: wrap;
   flex: 0 1 25%;
   justify-content: space-between;
 
@@ -395,6 +396,7 @@ p {
 
 .clients-list {
   display: flex;
+  flex-wrap: wrap;
   flex: 0 1 33.333%;
   justify-content: space-between;
 
@@ -475,6 +477,7 @@ p {
 .contacts__list {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
 
   li {
     flex: 0 0 207px;
@@ -646,6 +649,7 @@ p {
 .footer-left {
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
 
   img {
     width: 115px;
@@ -667,6 +671,7 @@ p {
 
 .footer-nav__list {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 
   li:not(:last-child) {
@@ -731,3 +736,5 @@ p {
 .footer-icons__icon:focus {
   outline: 2px solid #3172b9;
 }
+
+@import "media";
