@@ -87,15 +87,15 @@
 
 
 @media (max-width: 768px) {
-  /*BURGER MENU*/
-  /* скрываем чекбокс */
+  .hamburger-menu {
+    display: block;
+  }
   #menu__toggle {
     opacity: 0;
   }
-  /* стилизуем кнопку */
   .menu__btn {
-    display: flex; /* используем flex для центрирования содержимого */
-    align-items: center; /* центрируем содержимое кнопки */
+    display: flex;
+    align-items: center;
     position: fixed;
     top: 40px;
     left: 40px;
@@ -104,7 +104,6 @@
     cursor: pointer;
     z-index: 5;
   }
-  /* добавляем "гамбургер" */
   .menu__btn > span,
   .menu__btn > span::before,
   .menu__btn > span::after {
@@ -122,7 +121,6 @@
     content: '';
     top: 8px;
   }
-  /* контейнер меню */
   .menu__box {
     display: block;
     position: fixed;
@@ -138,7 +136,6 @@
     background-color: #ECEFF1;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
   }
-  /* элементы меню */
   .menu__item {
     display: block;
     padding: 12px 24px;

@@ -195,6 +195,9 @@ body {
     transition: color .1s ease-out;
   }
 }
+.hamburger-menu {
+  display: none;
+}
 
 .header__btn {
   flex: 0 0 150px;
