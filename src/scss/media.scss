@@ -226,3 +226,38 @@
   }
 }
 
+@media (max-width: 320px) {
+
+  .header__container img {
+    width: 90px;
+    height: 30px;
+  }
+  .header__btn {
+    margin-left: 5px;
+    flex: 0 1 80px;
+    font-size: 10px;
+  }
+  .menu__btn {
+    margin-right: 40px;
+  }
+  .menu__toggle {
+    padding-right: 20px;
+  }
+  .clients__header {
+    line-height: inherit;
+  }
+  .started__box h5 {
+    font-size: 25px;
+
+  }
+  .footer-left img {
+    width: 90px;
+    height: 30px;
+  }
+  .footer-nav__list {
+    display: none;
+  }
+}
+
+
+
